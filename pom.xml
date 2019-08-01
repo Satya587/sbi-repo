@@ -15,21 +15,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-  
- <distributionManagement>
-    <snapshotRepository>
-        <id>nexus-snapshots</id>
-        <name>Internal Snapshots</name>
-        <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-        <id>nexus-releases</id>
-        <name>Internal Releases</name>
-        <url>http://localhost:8081/nexus/content/repositories/releases</url>
-    </repository>
-</distributionManagement>
-
-  <dependencies>
+    <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
